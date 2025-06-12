@@ -8,6 +8,7 @@ public class DscommerceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DscommerceApplication.class, args);
+		System.setProperty("spring.h2.console.enabled", "true");
 	}
 
 }
